@@ -1,21 +1,18 @@
 # Nhà Pijama
 
-Website tĩnh cho Nhà Pijama – “Êm như mây - Mềm như lụa”.
+Website tĩnh của Nhà Pijama — “Êm như mây - Mềm như lụa”.
 
 ## Cấu trúc
 - `index.html`: trang chính
-- `assets/css/style.css`: CSS
-- `assets/js/script.js`: JavaScript
-- `assets/images/`: hình ảnh của website
+- `assets/css/styles.css`: CSS
+- `assets/images/`: hình ảnh được tách từ HTML
+- `.nojekyll`: hỗ trợ triển khai GitHub Pages
 
 ## Chạy thử
-Mở `index.html` bằng trình duyệt hoặc dùng VS Code Live Server.
+Mở `index.html` bằng trình duyệt.
 
 ## Đưa lên GitHub Pages
-1. Tạo repository mới trên GitHub.
-2. Upload toàn bộ thư mục này.
+1. Tạo repository trên GitHub.
+2. Upload toàn bộ nội dung trong thư mục này.
 3. Vào **Settings → Pages**.
-4. Chọn **Deploy from a branch**, branch `main`, thư mục `/ (root)`.
-5. Lưu lại và chờ GitHub Pages triển khai.
-
-> Website sử dụng Google Fonts nên cần kết nối Internet để tải font.
+4. Chọn branch chứa website và thư mục `/ (root)`.
